@@ -1,5 +1,5 @@
 /*!
- * Twikoo vercel function
+ * Twikoo vercel functions
  * (c) 2020-present iMaeGoo
  * Released under the MIT License.
  */
@@ -204,7 +204,7 @@ function anonymousSignIn (request) {
     }
 }
 
-// A function for connecting to MongoDB,
+// A functions for connecting to MongoDB,
 // taking a single parameter of the connection string
 async function connectToDatabase (uri) {
     // If the database connection is cached,
