@@ -95,7 +95,7 @@ router.post('/', cors(), async (req, res) => {
                 response = await commentLike(event)
                 break
             case 'COMMENT_SUBMIT':
-                response = await commentSubmit(event, request)
+                response = await commentSubmit(event, req)
                 break
             case 'POST_SUBMIT':
                 response = await postSubmit(event.comment, req)
