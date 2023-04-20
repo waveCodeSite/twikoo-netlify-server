@@ -11,11 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "serverless-http": "^2.7.0",
     "get-user-ip": "^1.0.1",
     "mongodb": "^3.6.3",
+    "serverless-http": "^2.7.0",
     "twikoo-func": "1.6.16",
     "uuid": "^8.3.2"
   }

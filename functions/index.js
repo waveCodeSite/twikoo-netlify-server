@@ -4,6 +4,8 @@ const cors = require('cors');
 const app = express();
 const router = express.Router();
 app.use(cors())
+const body = require('body-parser');
+app.use(body.json())
 
 const { version: VERSION } = require('../package.json')
 const MongoClient = require('mongodb').MongoClient
